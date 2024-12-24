@@ -1,0 +1,3 @@
+﻿D:\my_app\vs\vs_ide\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(DS2-1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  LinkNode_main.cpp
+  DS2-1.vcxproj -> D:\my_app\vscode\DS_code\DS2-1\Debug\2DS2-1.exe

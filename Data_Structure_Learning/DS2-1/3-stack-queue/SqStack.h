@@ -1,0 +1,28 @@
+#pragma once
+#ifndef __SqStack__
+#define __SqStack__
+#define MaxSize 100
+
+typedef char ElemType;
+typedef struct
+{
+	ElemType data[MaxSize];
+	int top;
+}SqStack;
+
+void InitStack(SqStack*& s);//³õÊ¼»¯Ë³ÐòÕ»
+
+void DestoryStack(SqStack*& s);//Ïú»ÙË³ÐòÕ»
+
+bool StackEmpty(SqStack* s);//ÅÐ¶ÏÕ»¿Õ·ñ
+
+bool Push(SqStack*& s, ElemType e);//½øÕ»
+
+bool Pop(SqStack*& s, ElemType& e);//³öÕ»
+
+bool GetTop(SqStack*& s, ElemType& e);//È¡Õ»¶¥ÔªËØ
+
+
+
+
+#endif
